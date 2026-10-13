@@ -1,0 +1,15 @@
+{
+	"audio_driver": "WASAPI",
+	"checks": 37,
+	"executable": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/.tools/godot-4.4.1/Godot_v4.4.1-stable_win64.exe",
+	"failures": [],
+	"long_session": false,
+	"measurements": {
+		"captured_frames": 89088,
+		"music_peak": 0.0504946671426296,
+		"success_peak": 0.099313385784626,
+		"thread_peak": 0.0640065148472786
+	},
+	"music_seconds": 130.233993530273,
+	"resource_root": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/godot-atelie-file-exploracao/"
+}

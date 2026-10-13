@@ -1,0 +1,29 @@
+# Cache e arquivos locais da Godot. Os arquivos .uid e .import são versionados.
+/.godot/
+/builds/
+.godot-export-credentials
+export_credentials.cfg
+
+# Resultados gerados pelos testes. Capturas usadas na documentação podem ser
+# adicionadas explicitamente com git add -f; as já versionadas continuam visíveis.
+/evidence/
+
+# Configuração particular, arquivos temporários e pacotes de distribuição.
+.env
+.env.*
+!.env.example
+*.tmp
+*.bak
+*.log
+*.zip
+*.7z
+*.exe
+*.pck
+*.pfx
+*.p12
+*.keystore
+.DS_Store
+Thumbs.db
+desktop.ini
+/.idea/
+/.vscode/

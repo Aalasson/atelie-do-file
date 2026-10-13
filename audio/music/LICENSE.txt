@@ -1,0 +1,12 @@
+Etirwer
+Autor publicado: Kistol
+Página de origem: https://opengameart.org/content/etirwer
+Licença: CC0 1.0 Universal
+Resumo da licença: https://creativecommons.org/publicdomain/zero/1.0/
+Texto legal: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+A página do autor identifica a faixa como CC0. A atribuição não é exigida
+pela licença; registramos o crédito por transparência acadêmica.
+O áudio original está preservado em etirwer-loop.ogg. Somente o nome
+do arquivo local mudou. O jogo controla volume e repetição em execução.
+Este arquivo é um registro de origem, não uma transcrição do texto legal.

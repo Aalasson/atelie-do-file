@@ -1,0 +1,125 @@
+[
+  {
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "name": "Plywood",
+    "maps": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plywood/plywood_diff_1k.jpg",
+        "bytes": 882059,
+        "file": "color.jpg",
+        "source_map": "Diffuse",
+        "md5": "8032b768029adffbbfb223dd890102de",
+        "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/plywood/plywood_nor_gl_1k.png",
+        "bytes": 1549450,
+        "file": "normal.png",
+        "source_map": "nor_gl",
+        "md5": "6d3ed6894e61733de595a40f68dd1044",
+        "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plywood/plywood_rough_1k.jpg",
+        "bytes": 729997,
+        "file": "roughness.jpg",
+        "source_map": "Rough",
+        "md5": "d46c674551da8c15b2a82000e22fc60b",
+        "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf"
+      }
+    ],
+    "page": "https://polyhaven.com/a/plywood",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "id": "plywood",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions_mm": [
+      499.999940395355,
+      499.999940395355
+    ]
+  },
+  {
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "name": "Fabric Pattern 05",
+    "maps": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fabric_pattern_05/fabric_pattern_05_col_01_1k.jpg",
+        "bytes": 797220,
+        "file": "color.jpg",
+        "source_map": "col_01",
+        "md5": "bb9ea242bac4c41493de34ba251870c2",
+        "sha256": "b9ece89a45044945ce4d1402672cfd605f1f074b313cb3cc12b7b2ea66fad7fe"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fabric_pattern_05/fabric_pattern_05_nor_gl_1k.png",
+        "bytes": 1991419,
+        "file": "normal.png",
+        "source_map": "nor_gl",
+        "md5": "f07ba6a0c2766150fdd9bb66bb991541",
+        "sha256": "c910934200d094ff967b93d914046ce22059c466bdead86b5bc8e54462d77d47"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fabric_pattern_05/fabric_pattern_05_rough_1k.jpg",
+        "bytes": 438194,
+        "file": "roughness.jpg",
+        "source_map": "Rough",
+        "md5": "94f4531e69392685b4fe74fba3a2da48",
+        "sha256": "e48d14e87a5493bc4ef9bea61e85b4397ec41f93d1c3fd1ac17494475781610e"
+      }
+    ],
+    "page": "https://polyhaven.com/a/fabric_pattern_05",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "id": "fabric_pattern_05",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions_mm": [
+      500,
+      499.9999403953552
+    ]
+  },
+  {
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "name": "Plastered Wall 02",
+    "maps": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_02/plastered_wall_02_diff_1k.jpg",
+        "bytes": 436395,
+        "file": "color.jpg",
+        "source_map": "Diffuse",
+        "md5": "3ca0d02e87ad5c6eb21efa4b05b7748e",
+        "sha256": "0a316ffd3f953a902325c06afb5a5863bbf71d13a353f9d85378562adca79603"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/plastered_wall_02/plastered_wall_02_nor_gl_1k.png",
+        "bytes": 5648686,
+        "file": "normal.png",
+        "source_map": "nor_gl",
+        "md5": "b9fd8b540a1a765d61324b019d856fca",
+        "sha256": "83ceda39494454531b9d43575f2b03d2071930ded775f39ce1ec7cf3779d931f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_02/plastered_wall_02_rough_1k.jpg",
+        "bytes": 173930,
+        "file": "roughness.jpg",
+        "source_map": "Rough",
+        "md5": "2d4a4a40491eb5a115c086bb65aba32c",
+        "sha256": "6c317c0e647b02259601690bd33501bbc825858c6d1715cd0f8f46a5b51f6db4"
+      }
+    ],
+    "page": "https://polyhaven.com/a/plastered_wall_02",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "id": "plastered_wall_02",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions_mm": [
+      2229.999542236328,
+      2229.999542236328
+    ]
+  }
+]

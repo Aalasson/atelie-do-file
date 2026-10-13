@@ -1,0 +1,15 @@
+{
+	"audio_driver": "WASAPI",
+	"checks": 39,
+	"executable": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/godot-atelie-file-exploracao/builds/Windows-Musica/AtelieDoFile.exe",
+	"failures": [],
+	"long_session": true,
+	"measurements": {
+		"captured_frames": 104448,
+		"music_peak": 0.0502574443817139,
+		"success_peak": 0.102365620434284,
+		"thread_peak": 0.0640065148472786
+	},
+	"music_seconds": 130.233993530273,
+	"resource_root": ""
+}

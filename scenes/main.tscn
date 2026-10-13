@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ambiente.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/bastidor.tscn" id="3"]
+[ext_resource type="Script" path="res://scripts/board.gd" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/novelo.tscn" id="5"]
+[ext_resource type="Script" path="res://scripts/yarn.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/camera_rig.gd" id="7"]
+[ext_resource type="Script" path="res://scripts/trail_ui.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/audio.gd" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/personagem.tscn" id="10"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="11"]
+
+[node name="Atelie" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Ambiente" parent="." instance=ExtResource("2")]
+
+[node name="Bastidor" parent="." instance=ExtResource("3")]
+position = Vector3(-0.078,1.0452,0.104)
+scale = Vector3(0.52,0.52,0.52)
+script = ExtResource("4")
+
+[node name="Novelos" type="Node3D" parent="."]
+scale = Vector3(0.52,0.52,0.52)
+
+[node name="Coral" parent="Novelos" instance=ExtResource("5")]
+position = Vector3(-2,2.2,0.95)
+script = ExtResource("6")
+color_index = 0
+
+[node name="Azul" parent="Novelos" instance=ExtResource("5")]
+position = Vector3(-2,2.2,-0.1)
+script = ExtResource("6")
+color_index = 1
+
+[node name="Amarelo" parent="Novelos" instance=ExtResource("5")]
+position = Vector3(-2,2.2,-1.04)
+script = ExtResource("6")
+color_index = 2
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("7")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+fov = 40.0
+near = 0.05
+far = 40.0
+
+[node name="Personagem" parent="." instance=ExtResource("10")]
+position = Vector3(0.0,0.05,3.0)
+script = ExtResource("11")
+
+[node name="PontoTrabalho" type="Marker3D" parent="."]
+position = Vector3(0,0,1.65)
+
+[node name="TransitionCamera" type="Camera3D" parent="."]
+near = 0.05
+far = 40.0
+
+[node name="Interface" type="CanvasLayer" parent="."]
+script = ExtResource("8")
+
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("9")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Audio"]
+max_polyphony = 4

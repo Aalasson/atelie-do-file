@@ -1,0 +1,15 @@
+{
+	"checks": 55,
+	"engine": "4.4.1-stable (official)",
+	"executable": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/godot-atelie-file-exploracao/builds/Windows-Musica/AtelieDoFile.exe",
+	"failures": [],
+	"performance": {
+		"draw_calls": 1048.0,
+		"frames": 90,
+		"gpu": "AMD Radeon RX 7600",
+		"median_ms": 16.699,
+		"p95_ms": 17.494,
+		"viewport": "(1000, 680)"
+	},
+	"resource_root": ""
+}

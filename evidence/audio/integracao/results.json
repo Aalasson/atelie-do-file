@@ -1,0 +1,15 @@
+{
+	"checks": 55,
+	"engine": "4.4.1-stable (official)",
+	"executable": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/.tools/godot-4.4.1/Godot_v4.4.1-stable_win64.exe",
+	"failures": [],
+	"performance": {
+		"draw_calls": 1052.0,
+		"frames": 90,
+		"gpu": "AMD Radeon RX 7600",
+		"median_ms": 33.233,
+		"p95_ms": 33.811,
+		"viewport": "(1366, 900)"
+	},
+	"resource_root": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/godot-atelie-file-exploracao/"
+}
