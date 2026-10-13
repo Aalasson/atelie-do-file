@@ -6,22 +6,22 @@ Este repositório contém a versão atual do jogo, com exploração 3D, bastidor
 
 ## Testar em outra máquina
 
-1. Instale **Git** e **Godot 4.4.1 Standard** (GDScript). Não é necessária a edição .NET.
-2. Autentique-se no GitHub com uma conta que tenha acesso ao repositório privado e clone:
+1. Instale **Godot 4.4.1 Standard** (GDScript). Para clonar pelo terminal, instale também **Git**. Não é necessária a edição .NET.
+2. O repositório é **público** e pode ser baixado sem login. Clone pelo terminal:
 
    ```sh
    git clone https://github.com/Aalasson/atelie-do-file.git
    cd atelie-do-file
    ```
 
-   Se usar a GitHub CLI, execute `gh auth login` antes e clone com `gh repo clone Aalasson/atelie-do-file`.
-3. No gerenciador de projetos da Godot, clique em **Importar**, selecione o `project.godot` da pasta clonada e aguarde a importação dos recursos.
+   Você também pode usar **Code → Download ZIP** na página do repositório e extrair a pasta, sem instalar Git.
+3. No gerenciador de projetos da Godot, clique em **Importar**, selecione o `project.godot` da pasta clonada ou extraída e aguarde a importação dos recursos.
 4. Pressione **F5** e clique em **Vamos explorar!**. Caminhe com **WASD/setas**, olhe com o **mouse** e pressione **E** perto da frente da bancada. **Esc** abre a pausa.
 5. Confira a madeira e os fios, pinte uma célula e experimente **Pausa → Som e volume**. Verifique música, efeitos, pausa e retomada.
 
 As cenas, os scripts, as texturas e a música estão no Git. A Godot recria o cache `.godot/` na primeira abertura. Não execute os geradores de `tools/` para jogar. Não é preciso baixar recursos adicionais, instalar npm ou configurar um servidor. Os templates de exportação só são necessários para gerar um executável.
 
-Para receber atualizações, feche o jogo e use `git pull --ff-only` na pasta clonada. Se houver alterações locais, confira `git status` e salve seu trabalho antes de atualizar.
+Para receber atualizações, feche o jogo e use `git pull --ff-only` na pasta clonada. Se houver alterações locais, confira `git status` e salve seu trabalho antes de atualizar. Se você baixou o ZIP, baixe uma nova cópia para obter as atualizações.
 
 **Windows, atalho opcional:** `.\abrir.ps1 -Editor -GodotPath "C:\caminho\Godot.exe"`. Sem `-GodotPath`, o script procura `godot4` ou `godot` no PATH. Também conserva o atalho para a instalação usada no ambiente original.
 

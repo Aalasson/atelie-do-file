@@ -6,11 +6,11 @@ O arquivo `project.godot` fica na raiz. Cenas, scripts, materiais, nove mapas de
 
 O cache `.godot/`, executáveis, pacotes, credenciais de exportação e resultados novos dos testes ficam fora do Git. Algumas capturas referenciadas na documentação e o resumo da verificação de áudio são mantidos no histórico. Para versionar uma nova captura, adicione o arquivo escolhido explicitamente com `git add -f evidence/caminho/arquivo.png`.
 
-O repositório é privado. Entre com a conta proprietária ou uma conta convidada. A senha comum da conta GitHub não serve como senha do Git por HTTPS; use o login pelo navegador oferecido pelo Git Credential Manager ou a GitHub CLI.
+O repositório é público. Consultar, clonar e baixar o projeto não exige login. O professor pode usar **Code → Download ZIP**, extrair a pasta e importar `project.godot` na Godot. Para enviar alterações ao repositório, é necessário autenticar-se com uma conta que tenha permissão de escrita.
 
 ## Abrir e conferir
 
-1. Clone o repositório conforme o README.
+1. Clone o repositório ou baixe e extraia o ZIP conforme o README.
 2. Importe `project.godot` na **Godot 4.4.1 Standard** e espere a importação terminar.
 3. Use F5. A tela inicial permanece silenciosa até começar.
 4. Caminhe e mova a câmera. A personagem deve parar diante dos móveis.
