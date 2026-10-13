@@ -1,8 +1,0 @@
-{
-	"checks": 128,
-	"engine": "4.4.1-stable (official)",
-	"executable": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/.tools/godot-4.4.1/Godot_v4.4.1-stable_win64.exe",
-	"failures": [],
-	"minimum_window": "1000x680",
-	"resource_root": "C:/Users/alass/OneDrive/Documentos/CG_2026_02/godot-atelie-file-exploracao/"
-}
